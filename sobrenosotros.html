@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="ccs/headers.css" rel="stylesheet">
+    <link href="ccs/footers.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sobrenosotros.css">
+</head>
+<body>
+
+ <!---------Header----------------------------------->
+      <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 link-secondary">Inicio</a></li>
+              <li><a href="servicios.html" class="nav-link px-2 link-dark">Servicios</a></li>
+              <li><a href="tienda.html" class="nav-link px-2 link-dark">Tienda</a></li>
+              <li><a href="sobrenosotros.html" class="nav-link px-2 link-dark">Sobre Nosotros</a></li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+              <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
+            </form>
+    
+            <div class="dropdown text-end">
+              <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="imagenes/fotodeperfil.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Carrito de compra</a></li>
+                <li><a class="dropdown-item" href="#">Lista de deseos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+<!---------Header------------------------------------------------------->
+<div class="container">
+    <head>
+      <h1 class="titulo">Sobre Nosotros</h1>
+    </head>
+    <div class="descripcion">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis veniam officia dignissimos id nulla tenetur reprehenderit inventore alias, quos corrupti ex excepturi accusamus molestias voluptatibus commodi, consequatur blanditiis, cupiditate similique eaque eum animi. Odio itaque, vitae at ipsum earum voluptatem harum iure provident iusto quisquam, dolor, impedit tempora minus. Consectetur adipisicing elit.</p>
+        <img src="imagenes/perrodormido.png" class="img-fluid" alt="perro dormido">
+    </div>
+    <div>
+        <h1 class="titulo">Nuestros clientes</h1>
+    </div>
+</div>
+
+<!----------------------Carrousel------------------------------------------>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/2slider1.jpg" class="d-block w-100" alt="perro y gato">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/2slider2.jpg" class="d-block w-100" alt="perro de paseo">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/2slider3.jpg" class="d-block w-100" alt="perro en el campo">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--------------------------Carrousel-------------------------------------->
+
+<!-------------------------Footer------------------------------------------------>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; 2021 Company, Inc</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+      <li class="nav-item"><a href="tienda.html" class="nav-link px-2 text-muted">Tienda</a></li>
+      <li class="nav-item"><a href="servicios.html" class="nav-link px-2 text-muted">Servicios</a></li>
+      <li class="nav-item"><a href="sobrenosotros.html" class="nav-link px-2 text-muted">Sobre Nosotros</a></li>
+    </ul>
+  </footer>
+  <!-------------------------Footer------------------------------------------------>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+</body>
+</html>

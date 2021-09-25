@@ -1,0 +1,55 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  header {
+      background: rgb(205, 130, 255);
+  }
+  .titulo {
+    color: rgba(201, 123, 253, 0.986) ;
+    text-align: center;
+    margin: 30px 0;
+    background: rgba(247, 229, 250, 0.8);
+    padding: 15px;
+  }
+  .col {
+    margin: 50px 0px;
+  }
+  .card  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(247, 209, 255, 0.712);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: rgba(165, 43, 246, 0.986);
+    border-color: rgba(201, 123, 253, 0.986);
+}
+.page-link {
+    position: relative;
+    display: block;
+    color: rgba(165, 43, 246, 0.986);
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.page-link {
+    margin: -1px 100px -1px 210px;
+}
+

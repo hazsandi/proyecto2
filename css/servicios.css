@@ -1,0 +1,23 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  header {
+      background: rgb(205, 130, 255);
+ }
+ .titulo {
+  color: rgba(201, 123, 253, 0.986) ;
+  text-align: center;
+  margin: 30px 0;
+  background: rgba(247, 229, 250, 0.8);
+  padding: 15px;
+}

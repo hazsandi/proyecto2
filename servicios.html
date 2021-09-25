@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="ccs/headers.css" rel="stylesheet">
+    <link href="ccs/footers.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/servicios.css">
+</head>
+<body>
+
+    <!---------Header----------------------------------->
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 link-secondary">Inicio</a></li>
+              <li><a href="servicios.html" class="nav-link px-2 link-dark">Servicios</a></li>
+              <li><a href="tienda.html" class="nav-link px-2 link-dark">Tienda</a></li>
+              <li><a href="sobrenosotros.html" class="nav-link px-2 link-dark">Sobre Nosotros</a></li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+              <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
+            </form>
+    
+            <div class="dropdown text-end">
+              <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="imagenes/fotodeperfil.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Carrito de compra</a></li>
+                <li><a class="dropdown-item" href="#">Lista de deseos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+<!---------Header------------------------------------------------------->
+<div class="container">
+  <h1 class="titulo">Nuestros servicios </h1>
+    <div class="row">
+        <div class="col">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore voluptate, alias ad, repellat ab quisquam explicabo nesciunt aut vero atque soluta exercitationem reiciendis, praesentium odio voluptatibus aspernatur voluptas reprehenderit corporis obcaecati autem perferendis repudiandae? Assumenda, quam quae? Adipisci accusantium facilis dignissimos asperiores inventore! Earum exercitationem error assumenda corrupti doloremque? </p>
+      </div>
+        <div class="col">
+          <img src="imagenes/perrolabrador.png">
+      </div>
+    </div>
+    <h1 class="titulo">Servicios Medicos</h1>
+    <div class="row">
+        <div class="col">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore voluptate, alias ad, repellat ab quisquam explicabo nesciunt aut vero atque soluta exercitationem reiciendis, praesentium odio voluptatibus aspernatur voluptas reprehenderit corporis obcaecati autem perferendis repudiandae? Assumenda, quam quae? Adipisci accusantium facilis dignissimos asperiores inventore! Earum exercitationem error assumenda corrupti doloremque? </p>
+      </div>
+        <div class="col">
+          <img src="imagenes/veterinaria.png">
+      </div>
+    </div>
+    <h1 class="titulo">Tienda</h1>
+    <div class="row">
+        <div class="col">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore voluptate, alias ad, repellat ab quisquam explicabo nesciunt aut vero atque soluta exercitationem reiciendis, praesentium odio voluptatibus aspernatur voluptas reprehenderit corporis obcaecati autem perferendis repudiandae? Assumenda, quam quae? Adipisci accusantium facilis dignissimos asperiores inventore! Earum exercitationem error assumenda corrupti doloremque? </p>
+      </div>
+        <div class="col">
+          <img src="imagenes/mascotas.png">
+      </div>
+    </div>    
+</div>
+<!-------------------------Footer------------------------------------------------>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; 2021 Company, Inc</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+      <li class="nav-item"><a href="tienda.html" class="nav-link px-2 text-muted">Tienda</a></li>
+      <li class="nav-item"><a href="servicios.html" class="nav-link px-2 text-muted">Servicios</a></li>
+      <li class="nav-item"><a href="sobrenosotros.html" class="nav-link px-2 text-muted">Sobre Nosotros</a></li>
+    </ul>
+  </footer>
+  <!-------------------------Footer------------------------------------------------>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+</body>
+</html>
